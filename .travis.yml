@@ -26,13 +26,13 @@ notifications:
 # ...and adding this to your Gopkg.toml file.
 #   required = ["github.com/golangci/golangci-lint/cmd/golangci-lint"]
 before_script:
- - ./setup-zeromq.sh
+        #- ./setup-zeromq.sh
 
 # script always runs to completion (set +e). If we have linter issues AND a
 # failing test, we want to see both. Configure golangci-lint with a
 # .golangci.yml file at the top level of your repo.
 script:
-  - go get -t -v ./...
+  - go get -v ./...
   - go build  ./...        # Run all the tests with the race detector enabled
   - go test -v -covermode=count -coverprofile=coverage.out
   - $HOME/gopath/bin/goveralls -coverprofile=coverage.out -service=travis-ci -repotoken $COVERALLS_TOKEN
