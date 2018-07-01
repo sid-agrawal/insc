@@ -10,3 +10,7 @@ insc a is package to access sensor data connected via BlueTooth. It uses ZeroMQ
 ```go
 import "github.com/sid-agrawal/insc"
 ```
+
+### Requires
+* [ZeroMQ 4.2.5](https://github.com/zeromq/libzmq/releases/tag/v4.2.5)
+* [ZeroMQ Golang](https://github.com/pebbe/zmq4)
