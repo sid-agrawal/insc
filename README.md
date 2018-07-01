@@ -16,3 +16,6 @@ import "github.com/sid-agrawal/insc"
 ### Requires
 * [ZeroMQ 4.2.5](https://github.com/zeromq/libzmq/releases/tag/v4.2.5)
 * [ZeroMQ Golang](https://github.com/pebbe/zmq4)
+
+### Docs
+* [Design Doc](https://docs.google.com/document/d/1zS_c4aynUnLNraeB8ns5zutwvZLugoeMKOTrWGF5q20/edit?usp=sharing)
