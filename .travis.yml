@@ -17,7 +17,7 @@ install:
 
 # Don't email me the results of the test runs.
 notifications:
-  email: false
+  email: agrawal.bitsg@gmail.com
 
 # Anything in before_script that returns a nonzero exit code will flunk the
 # build and immediately stop. It's sorta like having set -e enabled in bash.
