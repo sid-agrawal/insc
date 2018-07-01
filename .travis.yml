@@ -34,3 +34,5 @@ notifications:
 # .golangci.yml file at the top level of your repo.
 script:
   - go build  ./...        # Run all the tests with the race detector enabled
+  - go test -v -covermode=count -coverprofile=coverage.out
+  - $HOME/gopath/bin/goveralls -coverprofile=coverage.out -service=travis-ci -repotoken $COVERALLS_TOKEN
