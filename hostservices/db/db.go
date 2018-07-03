@@ -2,14 +2,15 @@ package db
 
 import "fmt"
 
-type Db struct {
+// DB is used to connect to boltdb
+type DB struct {
 	something interface{}
 }
 
-func (d *Db) Read() {
+func (d *DB) Read() {
 	fmt.Println("vim-go")
 }
 
-func (d *Db) Write() {
+func (d *DB) Write() {
 	fmt.Println("vim-go")
 }
