@@ -1,5 +1,5 @@
 
-# Island Network Streams Checkpoint GoLang #
+# Island Network Streams#
 
 
 [![Go Report Card](https://goreportcard.com/badge/github.com/sid-agrawal/insc)](https://goreportcard.com/report/github.com/sid-agrawal/insc)
