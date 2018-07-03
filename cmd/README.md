@@ -2,12 +2,9 @@
 
 This package contains the commands which needs to be run as per the design document.
 
-
-
 ## host
 This command is to be run on the host. It spawns the following different goroutines:
 * aggregator: [github.com/sid-agrawal/insc/host/aggregator](github.com/sid-agrawal/insc/host/aggregator)
-
 * db writer: [github.com/sid-agrawal/insc/host/db](github.com/sid-agrawal/insc/host/db)
 * db reader: [github.com/sid-agrawal/insc/host/db](github.com/sid-agrawal/insc/host/db)
 * publisher: [github.com/sid-agrawal/insc/host/publisher](github.com/sid-agrawal/insc/host/publisher)
