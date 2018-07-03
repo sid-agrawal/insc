@@ -1,5 +1,5 @@
 all:
-	go build github.com/sid-agrawal/insc
+	go build  ./...
 
 clean:
-	go clean
+	go clean ./...
