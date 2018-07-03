@@ -2,6 +2,14 @@ package db
 
 import "fmt"
 
-func Reader() {
+type Db struct {
+	something interface{}
+}
+
+func (d *Db) Read() {
+	fmt.Println("vim-go")
+}
+
+func (d *Db) Write() {
 	fmt.Println("vim-go")
 }

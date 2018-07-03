@@ -1,7 +1,11 @@
-package remoteclient
+package blesensor
 
 import "fmt"
 
-func Connect() {
+type BleSensor struct {
+	something interface{}
+}
+
+func (b *BleSensor) Connect() {
 	fmt.Println("vim-go")
 }

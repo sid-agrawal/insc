@@ -2,6 +2,10 @@ package publisher
 
 import "fmt"
 
-func publish() {
+type Publisher struct {
+	something interface{}
+}
+
+func (p *Publisher) Publish() {
 	fmt.Println("vim-go")
 }

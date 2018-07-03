@@ -2,6 +2,10 @@ package remoteclient
 
 import "fmt"
 
-func Connect() {
+type RemoteClient struct {
+	something interface{}
+}
+
+func (r *RemoteClient) Connect() {
 	fmt.Println("vim-go")
 }

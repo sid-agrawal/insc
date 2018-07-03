@@ -2,6 +2,10 @@ package aggregator
 
 import "fmt"
 
-func New() {
+type Aggregator struct {
+	something interface{}
+}
+
+func (a *Aggregator) Connect() {
 	fmt.Println("vim-go")
 }
