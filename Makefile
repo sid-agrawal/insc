@@ -6,5 +6,13 @@ core:
 
 test:
 	go test ./...
+
 clean:
 	go clean ./...
+
+cover:
+	go test -v -covermode=count -coverprofile=coverage.out ./...
+	goveralls -coverprofile=coverage.out -service=travis-ci -repotoken ${COVERALLS_TOKEN}
+
+getall:
+	go get -v -tags command ./...
