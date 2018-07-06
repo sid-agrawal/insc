@@ -2,7 +2,12 @@ package bluetoothserver
 
 import "testing"
 
-func TestConnectOk(t *testing.T) {
-	bs := &BluetoothServer{}
-	bs.Connect()
+func TestRun(t *testing.T) {
+	bs := &BTSImpl{}
+	bs.Run()
+}
+
+func TestPull(t *testing.T) {
+	bs := &BTSImpl{}
+	bs.Pull()
 }

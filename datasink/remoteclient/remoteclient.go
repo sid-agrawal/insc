@@ -2,7 +2,7 @@ package remoteclient
 
 import "fmt"
 
-// RemoteClient implements the datasinks interface.
+// RemoteClient implements the datasink interface.
 type RemoteClient struct {
 	something interface{}
 }

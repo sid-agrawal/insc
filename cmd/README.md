@@ -12,9 +12,9 @@ This command is to be run on the host. It spawns the following different gorouti
 
 
 ## remoteclient
-This demonstrates the use of the API expoted by [github.com/sid-agrawal/insc/datasinks/remoteclient](github.com/sid-agrawal/insc/datasinks/remoteclient)
+This demonstrates the use of the API expoted by [github.com/sid-agrawal/insc/datasink/remoteclient](github.com/sid-agrawal/insc/datasink/remoteclient)
 
 
 ## blesensor
-This cmd is meant to be run on a bluetooth enable client device and demonstrates the use of the API expoted by [github.com/sid-agrawal/insc/datasources/blesensor](github.com/sid-agrawal/insc/datasources/blesensor)
+This cmd is meant to be run on a bluetooth enable client device and demonstrates the use of the API expoted by [github.com/sid-agrawal/insc/datasource/blesensor](github.com/sid-agrawal/insc/datasource/blesensor)
 

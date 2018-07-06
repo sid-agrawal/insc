@@ -2,7 +2,7 @@ package blesensor
 
 import "fmt"
 
-// BLESensor implements the datasources interface.
+// BLESensor implements the datasource interface.
 type BLESensor struct {
 	something interface{}
 }
