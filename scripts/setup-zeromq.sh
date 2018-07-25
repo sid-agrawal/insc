@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Download zeromq
+# Download zeromq src code
 # Ref http://zeromq.org/intro:get-the-software
 wget https://github.com/zeromq/libzmq/releases/download/v4.2.5/zeromq-4.2.5.tar.gz
 
